@@ -13,3 +13,20 @@ let text = "";
 for (let i = 0; i < cars.length; i++) {
   text += cars[i] + "<br>";
 }
+console.log(text, + ' ');
+
+
+let str = '';
+
+for (let i = 0; i < 9; i++) {
+  str = str + i;
+  Number(str[i]);
+  console.log(typeof str[i] );
+}
+// parseInt(str);
+// console.log(parseInt(typeof str));
+console.log(str + ' ');
+console.log(typeof str );
+
+Number(str);
+console.log(typeof Number(str));

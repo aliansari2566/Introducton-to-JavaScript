@@ -14,28 +14,6 @@ console.log("below this ");
 
 
 
-// js switchs
-
-// let iname = prompt("Enter an item name > ");
-
-// switch (iname) {
-//   case 'bottle':
-//     console.log('bottle is $0.59 a pound.');
-//     break;
-//   case 'lcd':
-//     console.log('lcd is $20.59 a pound.');
-//     break;
-//   case 'pen':
-//     console.log('pen is $1.59 a pound.');
-//     break;
-//     case 'shoes':
-//       console.log('shoes are $16.59 a pound.');
-//       break;
-
-//   default:
-//     console.log('this item is not available');
-//     break;
-// }
 
 // Loops in JS
 

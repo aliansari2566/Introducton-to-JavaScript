@@ -6,3 +6,6 @@ const prompt = require("prompt-sync")();   // if you want to use prompt in vscod
 const a= parseInt(prompt('Enter a positive integer: '));  // taking input from user and converting it into number
 
 console.log("you can", a<18? "not drive" : "Drive" )
+
+console.log(a);
+console.log(typeof a);
