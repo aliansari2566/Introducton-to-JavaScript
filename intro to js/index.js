@@ -27,18 +27,6 @@ console.log(str);
 console.log(typeof str);
 // Loops in JS
 
-// objects with for loop
-
-let marks = { harry: 53, Ali: 85, sameer: 90, umair: 71 };
-
-
-for (let i = 0; i < Object.keys(marks).length; i++) {
- 
-  console.log("marks of object " + Object.keys(marks)[i] + " " + marks[Object.keys(marks)[i]]);
-  
-}
-console.log('\n');
-// objects with for loop
 
 
 

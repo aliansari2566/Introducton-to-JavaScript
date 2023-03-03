@@ -20,8 +20,7 @@ let str = '';
 
 for (let i = 0; i < 9; i++) {
   str = str + i;
-  Number(str[i]);
-  console.log(typeof str[i] );
+ 
 }
 // parseInt(str);
 // console.log(parseInt(typeof str));
@@ -30,3 +29,17 @@ console.log(typeof str );
 
 Number(str);
 console.log(typeof Number(str));
+
+
+// objects with for loop
+
+let marks = { harry: 53, Ali: 85, sameer: 90, umair: 71 };
+
+
+for (let i = 0; i < Object.keys(marks).length; i++) {
+ 
+  console.log("marks of object " + Object.keys(marks)[i] + " " + marks[Object.keys(marks)[i]]);
+  
+}
+console.log('\n');
+// objects with for loop
