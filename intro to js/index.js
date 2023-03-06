@@ -30,41 +30,9 @@ console.log(typeof str);
 
 
 
-// forin loop 
-
-for (let key in marks) {
-  console.log("marks of object " + key + " " + marks[key]);
-
-}
-
-// forin loop 
-console.log('\n');
-
-// MEAN of 5 numbers 
-const arr = [4, 5, 6, 7, 25];
-
-let mean = (arr) => {
-let sum = 0.0;
-let n =  arr.length;
-let avg =0;
-if (arr.length>0) {
-  for (let i = 0; i < n; i++) {
-    sum +=arr[i];
-    
-   }
- 
-   avg = sum/n;
-}
 
 
- return avg; 
 
-}
- 
-mean(arr);
-console.log("MEAN OF 5 NUMBERS "+ arr + " = " + mean(arr));
-console.log('\n');
-// MEAN of 5 numbers 
 
 // Template literals Backtick in js `````   
 // String interpolation : inserting varialbe directly in template literals 
@@ -94,10 +62,10 @@ console.log(new_name);
 
 let array = [23,2,13,17,73,91,23,82];
 
-for (let j=1 ,i = 0; i < array.length; j++  )  {
+for (let k=1 ,i = 0; i < array.length; k++  )  {
 
  
-  if(array[i]!==array[j])
+  if(array[i]!==array[k])
   {
     console.log(array[i] );
     i++;
