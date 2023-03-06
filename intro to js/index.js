@@ -62,10 +62,10 @@ console.log(new_name);
 
 let array = [23,2,13,17,73,91,23,82];
 
-for (let k=1 ,i = 0; i < array.length; k++  )  {
+for (let j=1 ,i = 0; i < array.length; j++  )  {
 
  
-  if(array[i]!==array[k])
+  if(array[i]!==array[j])
   {
     console.log(array[i] );
     i++;
