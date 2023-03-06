@@ -43,3 +43,16 @@ for (let i = 0; i < Object.keys(marks).length; i++) {
 }
 console.log('\n');
 // objects with for loop
+
+
+
+
+// forin loop 
+
+for (let key in marks) {
+  console.log("marks of object " + key + " " + marks[key]);
+
+}
+
+// forin loop 
+console.log('\n');
