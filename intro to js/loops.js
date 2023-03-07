@@ -52,6 +52,8 @@ let marks = {
 };
 
 
+console.log(Object.keys(marks));// this will print the values of object in an array like [ 'harry', 'Ali', 'sameer', 'umair' ]
+
 for (let i = 0; i < Object.keys(marks).length; i++) {
  
   console.log("marks of object " + Object.keys(marks)[i] + " " + marks[Object.keys(marks)[i]]);
@@ -108,3 +110,4 @@ do {
   console.log(counter);
 counter++;
 }while(counter < n)
+
