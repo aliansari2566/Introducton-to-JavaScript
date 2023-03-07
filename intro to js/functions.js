@@ -31,3 +31,11 @@ const sum =(a ,b) => {
 
 let answer= sum(10,3);
 console.log(answer);
+
+// arrow function without arguments
+
+const hello =() => {
+  console.log("i'm practicing js you have to write some code if you want learn");
+
+}
+hello();
