@@ -39,3 +39,12 @@ const hello =() => {
 
 }
 hello();
+
+let marks = { 
+   haris:0,
+    Ali: 85,
+    sameer: 90,
+    umair: 71 
+  };
+
+

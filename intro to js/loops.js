@@ -71,7 +71,21 @@ for (let key in marks) {
 
 }
 
+
+  
+for (const key in marks) {
+  if (marks.hasOwnProperty.call(marks, key)) {
+      const element = marks[key];
+      console.log(element);
+      
+  }
+
+}
+
+
+
 // forin loop 
+
 console.log('\n');
 
 
