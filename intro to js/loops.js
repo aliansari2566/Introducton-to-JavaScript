@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();   // if you want to use prompt in vscod
 
 
 
-const a= parseInt(prompt('Enter a positive integer: '));  // taking input from user and converting it into number
+// const a= parseInt(prompt('Enter a positive integer: '));  // taking input from user and converting it into number
 
 
 // Loops in JS
@@ -44,7 +44,12 @@ console.log(typeof Number(str));
 
 // objects with for loop
 
-let marks = { harry: 53, Ali: 85, sameer: 90, umair: 71 };
+let marks = { 
+  harry: 53,
+  Ali: 85,
+  sameer: 90,
+  umair: 71 
+};
 
 
 for (let i = 0; i < Object.keys(marks).length; i++) {
@@ -53,12 +58,13 @@ for (let i = 0; i < Object.keys(marks).length; i++) {
   
 }
 console.log('\n');
+
 // objects with for loop
 
 
 
 
-// forin loop 
+// for in loop 
 
 for (let key in marks) {
   console.log("marks of object " + key + " " + marks[key]);
@@ -70,8 +76,14 @@ console.log('\n');
 
 
 // while loop
-let n = Number.parseInt(prompt('Enter the value of n : ')); // in this way you are taking input and it will be converted and save in n
+let n = parseInt(prompt('Enter the value of n for while loop: ')); // in this way you are taking input and it will be converted and save in n
 console.log(typeof n);
 
-let b = prompt("Enter the value of b ") //first taking inputo from user 
-b= Number.parseInt(b); // ther converting it to number because when you take input from promt by defualt it is a string you have to convert
+// let b = prompt("Enter the value of b") //first taking inputo from user 
+// b= Number.parseInt(b); // ther converting it to number because when you take input from promt by defualt it is a string you have to convert
+
+let counter = 0;
+while(counter < n){
+  console.log(counter);
+counter++;
+}
