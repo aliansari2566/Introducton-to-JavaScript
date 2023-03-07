@@ -87,3 +87,10 @@ while(counter < n){
   console.log(counter);
 counter++;
 }
+
+
+// 
+do {
+  console.log(counter);
+counter++;
+}while(counter < n)
