@@ -23,3 +23,9 @@ mean(arr);
 console.log("MEAN OF 5 NUMBERS "+ arr + " = " + mean(arr));
 console.log('\n');
 // MEAN of 5 numbers 
+
+const mean_func =(a, b, c, d, e) =>{
+ return (a+b+c+d+e)/5;
+}
+
+console.log(mean_func(2,3,4,5,6));
