@@ -15,17 +15,7 @@ console.log("below this ");
 
 
 
-// Loops in JS
 
-let str = '';
-
-for (let i = 0; i < 9; i++) {
-  str = str + i;
-}
-parseInt(str)
-console.log(str);
-console.log(typeof str);
-// Loops in JS
 
 
 

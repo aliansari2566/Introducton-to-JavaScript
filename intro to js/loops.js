@@ -2,10 +2,21 @@
 const prompt = require("prompt-sync")();   // if you want to use prompt in vscode then you have to do this 
 
 
-// Factorial Function
 
 const a= parseInt(prompt('Enter a positive integer: '));  // taking input from user and converting it into number
 
+
+// Loops in JS
+
+let str1 = '';
+
+for (let i = 0; i < 9; i++) {
+  str1 = str1 + i;
+}
+parseInt(str1)
+console.log(str1);
+console.log(typeof str1);
+// Loops in JS
 
 const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
@@ -56,3 +67,11 @@ for (let key in marks) {
 
 // forin loop 
 console.log('\n');
+
+
+// while loop
+let n = Number.parseInt(prompt('Enter the value of n : ')); // in this way you are taking input and it will be converted and save in n
+console.log(typeof n);
+
+let b = prompt("Enter the value of b ") //first taking inputo from user 
+b= Number.parseInt(b); // ther converting it to number because when you take input from promt by defualt it is a string you have to convert
