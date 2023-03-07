@@ -21,3 +21,13 @@
   
     console.log("After Swapping: x = " + 
         x + ", y = " + y);
+
+
+// arrow function syntax
+
+const sum =(a ,b) => {
+    return a+b;
+}
+
+let answer= sum(10,3);
+console.log(answer);
