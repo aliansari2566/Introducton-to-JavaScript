@@ -54,26 +54,27 @@ let marks = {
 
 console.log(Object.keys(marks));// this will print the values of object in an array like [ 'harry', 'Ali', 'sameer', 'umair' ]
 
+// for in loop  objects with for loop
 for (let i = 0; i < Object.keys(marks).length; i++) {
  
-  console.log("marks of object " + Object.keys(marks)[i] + " " + marks[Object.keys(marks)[i]]);
+  console.log("marks of object " + Object.keys(marks)[i] + " " + marks[Object.keys(marks)[i]]); 
   
 }
 console.log('\n');
 
-// objects with for loop
 
 
 
 
-// for in loop 
+
+
 
 for (let key in marks) {
   console.log("marks of object " + key + " " + marks[key]);
 
 }
 
-
+// for in loop  objects with for loop
   
 for (const key in marks) {
   if (marks.hasOwnProperty.call(marks, key)) {
