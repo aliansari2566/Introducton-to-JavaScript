@@ -24,7 +24,7 @@ let name = "Anis";
  console.log(sen);
 console.log(sen.trim()); // remove white spaces
 
-console.log(name.toLocaleUpperCase());
+console.log('toLocaleUpperCase() this will convert string to upper case: '+name.toLocaleUpperCase() );
 let new_name = name.replace("Anis","Azee");
 console.log(name.replace("An","Az"));
 console.log(name);
