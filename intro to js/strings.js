@@ -20,9 +20,9 @@ console.log(sentence + '\n ');
 
 // String Methods 
 let name = "Anis";
- let sen = "      th is is my javaScript practice session .  ";
- console.log(sen);
-console.log(sen.trim()); // remove white spaces
+let sen = "      th is is my javaScript practice session .  ";
+console.log(sen);
+console.log('trim()  remove white spaces: '+sen.trim()); // remove white spaces
 
 console.log('toLocaleUpperCase() this will convert string to upper case: '+name.toLocaleUpperCase() );
 let new_name = name.replace("Anis","Azee");
