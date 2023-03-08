@@ -10,8 +10,9 @@ console.log(my_name.length); //this will print the length of string
 let boy1 = "Ali";
 let boy2 = "Anis";
 
+console.log(boy1 + ' is friend of ' + boy2); //simple way of printing string
 // let sentence =`boy1 is friend of boy2  `
-  let sentence =`${boy1} is friend of ${boy2} `  // like this u can print the value of variable in a string
+let sentence =`${boy1} is friend of ${boy2} `  // like this u can print the value of variable in a string
 
 console.log(sentence + '\n ');
 
