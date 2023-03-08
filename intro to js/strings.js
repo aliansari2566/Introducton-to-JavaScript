@@ -1,4 +1,8 @@
 
+let my_name = 'Ali';
+console.log(my_name.length); //this will print the length of string
+
+
 // Template literals Backtick in js `````   
 // String interpolation : inserting varialbe directly in template literals 
 
