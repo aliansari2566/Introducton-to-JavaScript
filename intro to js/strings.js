@@ -1,5 +1,6 @@
 
-let my_name = 'Ali';
+let my_name = 'Ali'; // we can initialize string by using single qoutes ' '
+let second_name = "Ali"; //we can initialize string by using double qoutes " "
 console.log(my_name.length); //this will print the length of string
 
 
