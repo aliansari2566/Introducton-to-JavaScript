@@ -27,19 +27,7 @@ for (let i = 0; i < cars.length; i++) {
 console.log(text, + ' ');
 
 
-let str = '';
 
-for (let i = 0; i < 9; i++) {
-  str = str + i;
- 
-}
-// parseInt(str);
-// console.log(parseInt(typeof str));
-console.log(str + ' ');
-console.log(typeof str );
-
-Number(str);
-console.log(typeof Number(str));
 
 
 // objects with for loop
@@ -112,3 +100,17 @@ do {
 counter++;
 }while(counter < n)
 
+let str ='';
+console.log(str + ' this is first ');
+for (let i = 0; i < 9; i++) {
+  str = str + i;
+  console.log(str + ' ');
+ 
+}
+parseInt(str);
+// console.log(parseInt(typeof str));
+console.log(str + ' ');
+console.log(typeof str );
+
+Number(str);
+console.log(typeof  Number(str));
