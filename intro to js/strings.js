@@ -20,7 +20,7 @@ console.log(sentence + '\n ');
 
 
 // Escape sequence
-let animal ='cat\'s';
+let animal ='cat\'s';//if we want to use a single quote with in a string like banana's JS will not allow us to write let fruit = 'banana's' we have to use escape sequence a back slash (\) before single quote eg let fruit = 'banana\'s' 
 console.log(animal);
 
 // Escape sequence 
