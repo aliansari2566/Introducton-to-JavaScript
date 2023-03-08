@@ -18,6 +18,13 @@ console.log(sentence + '\n ');
 
 // Backtick in js `````   
 
+
+// Escape sequence
+let animal ='cat\'s';
+console.log(animal);
+
+// Escape sequence 
+
 // String Methods 
 let name = "Anis";
 let sen = "      th is is my javaScript practice session .  ";
