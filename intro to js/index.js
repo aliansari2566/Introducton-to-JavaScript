@@ -11,7 +11,9 @@ console.log("below this ");
 
 
 
+let a, b, c;                       // declare 3 variables.
 
+let z = 35;                      // declare and initialize variable z 
 
 
 
