@@ -27,20 +27,6 @@ for (let i = 0; i < cars.length; i++) {
 console.log(text, + ' ');
 
 
-let str = '';
-
-for (let i = 0; i < 9; i++) {
-  str = str + i;
-  console.log(str + ' ');
- 
-}
-// parseInt(str);
-// console.log(parseInt(typeof str));
-console.log(str + ' ');
-console.log(typeof str );
-
-Number(str);
-console.log(typeof Number(str));
 
 
 // objects with for loop
@@ -113,3 +99,20 @@ do {
 counter++;
 }while(counter < n)
 
+
+
+
+let str = '';
+
+for (let i = 0; i < 9; i++) {
+  str = str + i;
+  console.log(str + ' ');
+ 
+}
+ let str2 = parseInt(str); // parseInt dose not convert the existing string to  number you have to store it into another variable to convert it.
+// console.log(parseInt(typeof str));
+console.log(str + ' ');
+console.log('this is the type of str2 ' + typeof str2 + str2 );
+
+Number(str);
+console.log( typeof  Number(str));
