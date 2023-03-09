@@ -1,4 +1,10 @@
 
+// String in JavaScript are immutable This means that the characters
+// within them may not be changed and that any operations on strings 
+// actually create new stringsalthough the variable that holds it may
+// be reassigned another value
+
+
 let my_name = 'Ali'; // we can initialize string by using single qoutes ' '
 let second_name = "Ali"; //we can initialize string by using double qoutes " "
 console.log(my_name.length); //this will print the length of string
