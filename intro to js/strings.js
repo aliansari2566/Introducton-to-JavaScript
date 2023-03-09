@@ -45,3 +45,12 @@ console.log(new_name);
 //slice() 
 console.log(name.slice(0,2));// 0 and 1 will be included but index 2 will not included it will print ( A n ) of name 
 console.log(name.slice(1));// this will print the string from the 1 index (given index to last ) to end
+
+
+//concat()
+let text1 = "sea";
+let text2 = "food";
+text1.concat(text2);// this does not change the existing string you have to save the result in new string
+console.log(text1);
+let result = text1.concat(' '+text2);
+console.log(result);
