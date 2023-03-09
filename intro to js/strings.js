@@ -48,6 +48,13 @@ console.log(name.slice(1));// this will print the string from the 1 index (given
 
 
 //concat()
+// The concat() method joins two or more strings.
+
+// The concat() method does not change the existing strings.
+
+// The concat() method returns a new string.
+
+
 let text1 = "sea";
 let text2 = "food";
 text1.concat(text2);// this does not change the existing string you have to save the result in new string
