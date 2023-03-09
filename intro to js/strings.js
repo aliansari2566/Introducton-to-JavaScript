@@ -32,11 +32,13 @@ console.log(sen);
 console.log('trim()  remove white spaces: '+sen.trim()); // remove white spaces
 
 // toLocaleUpperCase(), toLowerCase()
-console.log('toLocaleUpperCase() this will convert string to upper case: '+name.toLocaleUpperCase() );
+console.log('toLocaleUpperCase() this will convert string to upper case: '+name.toLocaleUpperCase() );//The toLocaleLowerCase() method converts a string to lowercase letters, using current locale.The locale is based on the language settings of the browser.
+
+
 console.log('toLocaleUpperCase() this will convert string to upper case: '+ name.toLowerCase() );
 
 
-//replace()
+//replace() 
 let new_name = name.replace("Anis","Azee");// this will not affect the existing string but it will replace and you have to store it into the new string
 console.log(name.replace("is","an"));
 console.log(name);
