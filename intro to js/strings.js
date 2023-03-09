@@ -29,6 +29,7 @@ console.log(animal);
 let name = "Anis";
 let sen = "      th is is my javaScript practice session .  ";
 console.log(sen);
+//trim()
 console.log('trim()  remove white spaces: '+sen.trim()); // remove white spaces
 
 // toLocaleUpperCase(), toLowerCase()
