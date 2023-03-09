@@ -71,3 +71,4 @@ text1.concat(text2);// this does not change the existing string you have to save
 console.log(text1);
 let result = text1.concat(' '+text2);
 console.log(result);
+
