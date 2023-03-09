@@ -72,3 +72,12 @@ console.log(text1);
 let result = text1.concat(' '+text2);
 console.log(result);
 
+
+
+//String interpolation  escape seqience and trenary operator all are used.  includes() function return true or false if the word is present in the string
+const new_sentence = 'The quick brown fox jumps over the lazy dog.';
+
+const word = 'fox';
+
+console.log(`The word "${word}" ${new_sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
+// Expected output: "The word "fox" is in the sentence"
