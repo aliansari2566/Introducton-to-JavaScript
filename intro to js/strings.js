@@ -31,14 +31,17 @@ let sen = "      th is is my javaScript practice session .  ";
 console.log(sen);
 console.log('trim()  remove white spaces: '+sen.trim()); // remove white spaces
 
+// toLocaleUpperCase(), toLowerCase()
 console.log('toLocaleUpperCase() this will convert string to upper case: '+name.toLocaleUpperCase() );
 console.log('toLocaleUpperCase() this will convert string to upper case: '+ name.toLowerCase() );
-let new_name = name.replace("Anis","Azee");// this will not affect the existing string but it will replace and you have to store it into the new string
 
+
+//replace()
+let new_name = name.replace("Anis","Azee");// this will not affect the existing string but it will replace and you have to store it into the new string
 console.log(name.replace("is","an"));
 console.log(name);
 console.log(new_name);
 
-
+//slice() 
 console.log(name.slice(0,2));// 0 and 1 will be included but index 2 will not included it will print ( A n ) of name 
 console.log(name.slice(1));// this will print the string from the 1 index (given index to last ) to end
