@@ -38,3 +38,6 @@ let new_name = name.replace("Anis","Azee");// this will not affect the existing 
 console.log(name.replace("is","an"));
 console.log(name);
 console.log(new_name);
+
+
+console.log(name.slice(0,1));
