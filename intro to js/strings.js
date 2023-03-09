@@ -40,4 +40,4 @@ console.log(name);
 console.log(new_name);
 
 
-console.log(name.slice(0,1));
+console.log(name.slice(0,2));// 0 and 1 will be included but index 2 will not included it will print ( A n ) of name 
