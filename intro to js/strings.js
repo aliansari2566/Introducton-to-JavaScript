@@ -12,7 +12,7 @@ let boy2 = "Anis";
 
 console.log(boy1 + ' is friend of ' + boy2); //simple way of printing string
 // let sentence =`boy1 is friend of boy2  `
-let sentence =`${boy1} is friend of ${boy2} ` // like this u can print the value of variable in a string
+let sentence =`${boy1} is friend of ${boy2} ` //Most used method now days. like this u can print the value of variable in a string
 
 console.log(sentence + '\n ');
 
