@@ -36,3 +36,11 @@ for (let i = 0; i < array_of_marks.length; i++) {
     console.log(array_of_marks[i]); 
     
 }
+
+// Array methods (Functions)
+
+let num =[1,2,3,4,54];
+console.log(typeof num);
+let b = num.toString();
+console.log(typeof num);
+console.log(typeof b);
