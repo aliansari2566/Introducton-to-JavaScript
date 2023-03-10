@@ -57,8 +57,9 @@ console.log("array before pop() " + num);
 num.pop();// pop returns the poped element of array (remove) the last element of the original array 
 console.log("array after pop() " + num);
 
+console.log("array before shift() " + num);
 num.shift();// removes the first index od array
-console.log(num);
+console.log("array after shift() " + num);
 
 //works some both remove the element of array but pop() from last and shift() start 
 
