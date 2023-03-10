@@ -1,7 +1,7 @@
 
 // Array are mutable arrays can be chnaged
 
-let array_of_marks = [78,82,98,56,49];
+let array_of_marks = [78,82,98,'empty',true];
 
 console.log(array_of_marks);// printing full array
 
