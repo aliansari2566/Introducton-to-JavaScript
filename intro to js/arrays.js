@@ -66,10 +66,13 @@ console.log("array after shift() \n" + num);
 
 //works some both add the element of array but push() from last and unshift() start 
 console.log("\n");
-num.push(21)// pop returns the poped element of array (add) element at the last index(end) of the original array 
-console.log(num);
 
+console.log("array before push() \n" + num);
+num.push(21)// pop returns the poped element of array (add) element at the last index(end) of the original array 
+console.log("array after push() \n" +num);
+
+console.log("array before unshitft() \n" + num);
 num.unshift(83);
-console.log(num);
+console.log("array after unshitft() \n" + num);
 
 
