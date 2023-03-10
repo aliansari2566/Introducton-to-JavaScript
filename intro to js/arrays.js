@@ -4,7 +4,7 @@
 let array_of_marks = [78,82,98,'empty',true];
 
 console.log(array_of_marks);// printing full array
-
+console.log(typeof array_of_marks);
 
 // printing array by index 
 
