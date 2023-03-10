@@ -49,3 +49,15 @@ console.log(typeof b);
 // Join() joins the array elements with operators
 let c = num.join("->");
 console.log(c);
+
+// some methods of array which can change the same (existing ) array like pop() push() shift()
+
+num.pop();// pop returns the poped element of array (remove) the last element of the original array 
+
+console.log(num);
+
+num.push(21)
+console.log(num);
+
+num.shift();// removes the first index od array
+console.log(num);
