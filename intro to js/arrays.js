@@ -75,4 +75,4 @@ console.log("array before unshitft() \n" + num);
 num.unshift(83);
 console.log("array after unshitft() \n" + num);
 
-
+//works some both add the element of array but push() from last and unshift() start 
