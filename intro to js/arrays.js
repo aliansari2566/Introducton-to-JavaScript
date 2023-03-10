@@ -31,7 +31,7 @@ for(let key of array_of_marks) {
     console.log("marks " + key );
 }
 
-
+// Simple for loop
 for (let i = 0; i < array_of_marks.length; i++) {
     console.log(array_of_marks[i]); 
     
