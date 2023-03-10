@@ -67,6 +67,7 @@ console.log(name.slice(1));// this will print the string from the 1 index (given
 
 let text1 = "sea";
 let text2 = "food";
+// console.log(` ${text2} the ${text1} `);
 text1.concat(text2);// this does not change the existing string you have to save the result in new string
 console.log(text1);
 let result = text1.concat(' '+text2);
