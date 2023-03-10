@@ -50,7 +50,7 @@ console.log(typeof b);
 let c = num.join("->");
 console.log(c);
 
-// some methods of array which can change the same (existing ) array like pop() push() shift() unshift()
+// some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice()
 
 //works some both remove the element of array but pop() from last and shift() start 
 console.log("array before pop() \n" + num);
@@ -76,3 +76,12 @@ num.unshift(83);
 console.log("array after unshitft() \n" + num);
 
 //works some both add the element of array but push() from last and unshift() start 
+
+
+// The splice() method adds and/or removes array elements.
+
+// The splice() method overwrites the original array.
+
+console.log("array before splice() \n" + num + " length => " + num.length);
+num.splice(2, 0, "Lemon", "Kiwi");
+console.log("array after splice() \n" + num + " length => " + num.length);
