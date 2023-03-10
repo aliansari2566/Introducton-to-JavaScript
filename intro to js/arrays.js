@@ -13,6 +13,14 @@ console.log(array_of_marks[1]);
 console.log(array_of_marks[2]);
 console.log(array_of_marks[3]);
 console.log(array_of_marks[4]);
-console.log(array_of_marks[5]);// will be undefined because there is no index 6 in array
+console.log(array_of_marks[5]);// will be undefined because there is no index 5 in array
 
-// adding the new value to array 
+
+array_of_marks[5] = 89; // adding the new value to array 
+console.log(array_of_marks[5]);
+
+
+// we can change the value of an array on specific idnex
+
+array_of_marks[2]=93;
+console.log(array_of_marks[2]);
