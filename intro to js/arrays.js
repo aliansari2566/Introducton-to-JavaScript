@@ -53,9 +53,9 @@ console.log(c);
 // some methods of array which can change the same (existing ) array like pop() push() shift() unshift()
 
 //works some both remove the element of array but pop() from last and shift() start 
-console.log("array before pop()");
+console.log("array before pop() " + num);
 num.pop();// pop returns the poped element of array (remove) the last element of the original array 
-console.log(num);
+console.log("array after pop() " + num);
 
 num.shift();// removes the first index od array
 console.log(num);
