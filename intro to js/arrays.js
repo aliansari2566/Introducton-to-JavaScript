@@ -24,3 +24,15 @@ console.log(array_of_marks[5]);
 
 array_of_marks[2]=93;
 console.log(array_of_marks[2]);
+
+
+// type of array is an object so we can also use for of loop to print array
+for(let key of array_of_marks) {
+    console.log("marks " + key );
+}
+
+
+for (let i = 0; i < array_of_marks.length; i++) {
+    console.log(array_of_marks[i]); 
+    
+}
