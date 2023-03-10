@@ -50,14 +50,20 @@ console.log(typeof b);
 let c = num.join("->");
 console.log(c);
 
-// some methods of array which can change the same (existing ) array like pop() push() shift()
+// some methods of array which can change the same (existing ) array like pop() push() shift() unshift()
 
+//works some both remove the element of array but pop() from last and shift() start 
 num.pop();// pop returns the poped element of array (remove) the last element of the original array 
-
-console.log(num);
-
-num.push(21)
 console.log(num);
 
 num.shift();// removes the first index od array
 console.log(num);
+
+//works some both remove the element of array but from last and start 
+
+
+//works some both add the element of array but from last and start 
+num.push(21)// pop returns the poped element of array (add) element at the last index(end) of the original array 
+console.log(num);
+
+
