@@ -44,3 +44,8 @@ console.log(typeof num);
 let b = num.toString();
 console.log(typeof num);
 console.log(typeof b);
+
+
+// Join() joins the array elements with operators
+let c = num.join("->");
+console.log(c);
