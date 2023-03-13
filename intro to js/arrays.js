@@ -39,7 +39,7 @@ for (let i = 0; i < array_of_marks.length; i++) {
 
 // Array methods (Functions)
 
-let num =[1,2,3,4,54];
+let num =[13,232,37,411,54];
 console.log(typeof num);
 let b = num.toString();
 console.log(typeof num);
@@ -82,9 +82,16 @@ console.log("array after unshitft() \n" + num);
 
 // The splice() method overwrites the original array.
 
-console.log("array before splice() \n" + num + " length => " + num.length);
-num.splice( 2, 0, "Lemon", "Kiwi");
-console.log("array after splice() \n" + num + " length => " + num.length);
+// console.log("array before splice() \n" + num + " length => " + num.length);
+// num.splice( 2, 0, "Lemon", "Kiwi");
+// console.log("array after splice() \n" + num + " length => " + num.length);
+
+
+let compare = (a,b) =>{
+return a-b;
+}
+num.sort(compare);
+console.log(num);
 
 // some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice() sort()
 
