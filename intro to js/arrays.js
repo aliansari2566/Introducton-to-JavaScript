@@ -82,11 +82,14 @@ console.log("array after unshitft() \n" + num);
 
 // The splice() method overwrites the original array.
 
-// console.log("array before splice() \n" + num + " length => " + num.length);
-// num.splice( 2, 0, "Lemon", "Kiwi");
-// console.log("array after splice() \n" + num + " length => " + num.length);
+console.log("array before splice() \n" + num + " length => " + num.length);
+num.splice( 2, 0, "Lemon", "Kiwi");
+console.log("array after splice() \n" + num + " length => " + num.length);
 
 
+
+//sort() we can create and use a compare function to sort array in ascending and descending order 
+//num.sort(); simple sort function will sort it in alphabetical order
 let compare = (a,b) =>{
 return a-b;
 }
