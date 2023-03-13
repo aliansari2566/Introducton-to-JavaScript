@@ -96,7 +96,7 @@ return a-b;
 num.sort(compare);
 console.log(num);
 
-// some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice() sort()
+// some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice() sort() reverse()
 
 
 
