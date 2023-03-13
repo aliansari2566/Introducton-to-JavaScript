@@ -116,3 +116,18 @@ console.log('this is the type of str2 ' + typeof str2 + str2 );
 
 Number(str);
 console.log( typeof  Number(str));
+
+
+//for each loops with array
+
+let random_arr=[2,3,4,7,8];
+
+random_arr.forEach(hello => {
+  console.log(hello*hello);
+});
+
+
+// for (let i = 0; i < random_arr.length; i++) {
+// console.log( random_arr[i] * random_arr[i]);
+  
+// }
