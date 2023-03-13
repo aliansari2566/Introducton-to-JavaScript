@@ -15,3 +15,4 @@ let numbers = [2,4,55,77];
     }
  })
  console.log(a);
+
