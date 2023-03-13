@@ -50,7 +50,7 @@ console.log(typeof b);
 let c = num.join("->");
 console.log(c);
 
-// some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice()
+// some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice() sort()
 
 //works some both remove the element of array but pop() from last and shift() start 
 console.log("array before pop() \n" + num);
@@ -85,6 +85,12 @@ console.log("array after unshitft() \n" + num);
 console.log("array before splice() \n" + num + " length => " + num.length);
 num.splice( 2, 0, "Lemon", "Kiwi");
 console.log("array after splice() \n" + num + " length => " + num.length);
+
+// some methods of array which can change the same (existing ) array like pop() push() shift() unshift() splice() sort()
+
+
+
+
 
 // delete operator in js 
 
