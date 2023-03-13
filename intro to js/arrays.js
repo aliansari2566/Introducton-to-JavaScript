@@ -99,5 +99,5 @@ console.log(numbers_array.length);
 
 
 //array concat 
-let new_array = numbers_array.concat(numbers_arr);
+let new_array = numbers_array.concat(numbers_arr); // concat() returns a new array
 console.log(new_array);
