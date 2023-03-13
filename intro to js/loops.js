@@ -131,3 +131,20 @@ random_arr.forEach(hello => {
 // console.log( random_arr[i] * random_arr[i]);
   
 // }
+
+for (const key in random_arr) {
+  if (Object.hasOwnProperty.call(random_arr, key)) {
+console.log(random_arr[key]) ;
+    
+  }
+}
+
+for (let i of random_arr) {
+  console.log("marks of object " + i + " " + random_arr[i]);
+
+}
+
+for (let key in random_arr) {
+  console.log("marks of object " + key + " " + random_arr[key]);
+
+}
