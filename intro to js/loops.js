@@ -148,3 +148,6 @@ for (let key in random_arr) {
   console.log("marks of object " + key + " " + random_arr[key]);
 
 }
+
+// Higher order array methods  map filter reduce
+
