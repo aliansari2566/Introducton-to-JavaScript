@@ -149,5 +149,4 @@ for (let key in random_arr) {
 
 }
 
-// Higher order array methods  map filter reduce
 
