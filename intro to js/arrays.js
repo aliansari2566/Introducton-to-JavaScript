@@ -95,3 +95,5 @@ console.log(numbers_array.length);
 delete numbers_array[0]; // it does not affect the length of array 
 
 console.log(numbers_array.length);
+
+
