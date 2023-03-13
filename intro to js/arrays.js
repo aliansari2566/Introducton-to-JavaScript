@@ -83,5 +83,15 @@ console.log("array after unshitft() \n" + num);
 // The splice() method overwrites the original array.
 
 console.log("array before splice() \n" + num + " length => " + num.length);
-num.splice(2, 0, "Lemon", "Kiwi");
+num.splice( 2, 0, "Lemon", "Kiwi");
 console.log("array after splice() \n" + num + " length => " + num.length);
+
+// delete operator in js 
+
+let numbers_array = [1,2,3,4,5,6,7,8];
+
+console.log(numbers_array.length);
+
+delete numbers_array[0]; // it does not affect the length of array 
+
+console.log(numbers_array.length);
