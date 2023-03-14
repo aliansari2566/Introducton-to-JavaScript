@@ -14,13 +14,19 @@ let numbers = [2,4,55,77];
  let a = numbers.map((value , index) =>{
     console.log(value, index);
  
-    if(value%2!=0)
+    if(value >10)
     {
-       return value+1
+       return value
     }
-    else{
-        return value
-    }
+
+    // if(value %2!=0)
+    // {
+    //    return value+1
+    // }
+    // else{
+    //     return value
+    // }
+   
  })
  console.log(a);
 
@@ -28,7 +34,7 @@ let numbers = [2,4,55,77];
 //filter
 
 let a2 =numbers.filter((we_can_write_anything ,index)=>{
- return we_can_write_anything >10;
+ return we_can_write_anything > 10;
     
 } )
 console.log(a2);
