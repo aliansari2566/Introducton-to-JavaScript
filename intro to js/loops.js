@@ -122,6 +122,7 @@ console.log( typeof  Number(str));
 
 let random_arr=[2,3,4,7,8];
 
+// for each just use for iteration it does not return a new array as map() does
 random_arr.forEach(hello => {
   console.log(hello*hello);
 });
