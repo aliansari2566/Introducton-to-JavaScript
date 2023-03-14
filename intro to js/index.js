@@ -1,4 +1,4 @@
- const prompt = require("prompt-sync")();   // if you want to use prompt in vscode then you have to do this 
+//  const prompt = require("prompt-sync")();   // if you want to use prompt in vscode then you have to do this 
 
 
 
@@ -89,35 +89,35 @@ console.log(arr1);
 
 
 
-// let ran = Math.floor(Math.random() *100)
-// console.log(ran);
+let ran = Math.floor(Math.random() *100)
+console.log(ran);
 
 
 
 
-// function guess(num) {
+function guess(num) {
   
-//   if(ran === num)
-//   {
-//     console.log("");
-//   }
-//   else if(ran > num)
-//   { 
-//     console.log(" Random number is greater than guessed number");
+  if(ran === num)
+  {
+    console.log("");
+  }
+  else if(ran > num)
+  { 
+    console.log(" Random number is greater than guessed number");
     
-//   }
-//   else {
-//     console.log(" Guessed number is less than random number");
-//   }
+  }
+  else {
+    console.log(" Guessed number is less than random number");
+  }
 
-// }
-// while(ran !== num1){
+}
+while(ran !== num1){
 
-//   guess(num1);
-//   if (ran === num1) break;
+  guess(num1);
+  if (ran === num1) break;
 
 
-// }
+}
 
 
 // this code will run on browser 
