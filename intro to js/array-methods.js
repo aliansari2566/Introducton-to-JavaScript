@@ -10,8 +10,8 @@ let numbers = [2,4,55,77];
 // map() does not execute the function for empty elements.
 
 // map() does not change the original array.
-
- let a = numbers.map((value , index) =>{
+// let a3 = numbers.map(x =>  x+1 );  we can write the function like this it is called refector
+ let a = numbers.map((value , index) =>{ 
     console.log(value, index);
  
     if(value >10)
@@ -43,4 +43,5 @@ let a2 =numbers.filter((we_can_write_anything ,index) => {
     
 } )
 console.log(a2);
+
 
