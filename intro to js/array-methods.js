@@ -32,6 +32,11 @@ let numbers = [2,4,55,77];
 
 
 //filter
+// The filter() method creates a new array filled with elements that pass a test provided by a function.
+
+// The filter() method does not execute the function for empty elements.
+
+// The filter() method does not change the original array.
 
 let a2 =numbers.filter((we_can_write_anything ,index)=>{
  return we_can_write_anything > 10;
