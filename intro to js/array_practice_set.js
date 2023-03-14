@@ -12,8 +12,8 @@ numbers.push(num);
 console.log(numbers);
 
 
-// 
-let new_array = [2,33,4,5]; 
+// taking input using do while loop until user enter 0 
+let new_array = [2,33,4]; 
 let a ;
 do {
     
@@ -24,10 +24,11 @@ new_array .push(a);
 console.log(new_array );
 } while (a !=0);
 
-//taking inout from user in for loop
+
+//taking inout from user in for loop when array is empty
 
 var inputArray = [];
-var size = 5; //Maximum Array size
+var size = 2; //Maximum Array size
 
 for(var i=0; i<size; i++) {
 	
@@ -37,3 +38,14 @@ for(var i=0; i<size; i++) {
 
 //Print the array in the console.
 console.log(inputArray);
+
+
+//findind fictorial using reduce ()
+
+let arr2 =[5,4,3,2,1];
+
+let arr3 = arr2.reduce((num1,num2)=>{
+
+    return num1 * num2;
+})
+console.log(arr3);
