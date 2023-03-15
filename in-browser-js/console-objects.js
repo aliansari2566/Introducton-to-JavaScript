@@ -1,1 +1,3 @@
 console.log(console); // it will print all the console methods like log() assert() error() so on....
+
+console.log("hi ali"); // in console it will return undefined 
