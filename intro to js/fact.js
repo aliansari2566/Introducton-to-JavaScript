@@ -40,3 +40,12 @@ console.log("Factorial "+ fact );
 
 
 
+//findind fictorial using reduce ()
+
+// let arr2 =[5,4,3,2,1];
+
+// let arr3 = arr2.reduce((num1,num2)=>{
+
+//     return num1 * num2;
+// })
+// console.log(arr3);
