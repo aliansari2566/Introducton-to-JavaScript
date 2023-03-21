@@ -15,3 +15,5 @@
 // console.log(makeid(1));
 
 let b = document.body
+console.log("First child of b: " + b.firstChild);
+console.log("First Element Child of b: " + b.firstElementChild);
