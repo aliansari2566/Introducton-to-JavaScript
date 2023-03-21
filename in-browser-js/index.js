@@ -14,6 +14,18 @@
 
 // console.log(makeid(1));
 
+
+
 let b = document.body
 console.log("First child of b: " + b.firstChild);
 console.log("First Element Child of b: " + b.firstElementChild);
+
+const changebgcolor =(() =>{
+  document.body.firstElementChild.style.background = "red"
+  } )
+
+  // let arr3 = arr2.reduce((num1,num2)=>{
+
+  //      return num1 * num2;
+  //    })
+  //    console.log(arr3);
