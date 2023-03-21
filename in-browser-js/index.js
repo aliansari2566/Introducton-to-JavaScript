@@ -14,3 +14,4 @@
 
 // console.log(makeid(1));
 
+let b = document.body
