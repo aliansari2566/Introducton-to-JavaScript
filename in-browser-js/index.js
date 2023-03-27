@@ -33,3 +33,8 @@ const changebgcolor =(() =>{
   console.log(document.getElementsByTagName("li"));
   
   console.log(document.querySelector("nav").getElementsByTagName("li")); // nav bar k andr search kry ga li tag poara ha k nhi or return kr de ga
+
+
+  //----------------------------------Methods to search dom matches, closest and contains -------------------------------------------
+
+  
