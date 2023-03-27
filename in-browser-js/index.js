@@ -30,4 +30,5 @@ const changebgcolor =(() =>{
   //    })
   //    console.log(arr3);
 
-  
+  console.log(document.getElementsByTagName("li"));
+  console.log(document.querySelector("nav").getElementsByTagName("li"));
