@@ -35,6 +35,12 @@ const changebgcolor =(() =>{
   console.log(document.querySelector("nav").getElementsByTagName("li")); // nav bar k andr search kry ga li tag poara ha k nhi or return kr de ga
 
 
+  // changing background color of all li by using js array method array.from()
+  // Array.from(document.getElementsByTagName("li")).forEach((element) =>{
+
+  //   element.style.background="blue"
+        
+  //   })
   //----------------------------------Methods to search dom matches, closest and contains -------------------------------------------
 
   
