@@ -41,6 +41,7 @@ const changebgcolor =(() =>{
 
 
   // console.log(first.setAttribute("xz", "yy1"));
+  // console.log(first.setAttribute("id", "hello yy1"));
 
   // changing background color of all li by using js array method array.from()
   // Array.from(document.getElementsByTagName("li")).forEach((element) =>{
