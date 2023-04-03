@@ -12,3 +12,5 @@ div.appendChild(div)
 const element = document.getElementById('div');
 element.innerHTML = 'Hello, world';
 
+//jquery
+$('div').text('Hello, world');
