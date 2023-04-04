@@ -38,13 +38,13 @@ let numbers = [2,4,50,70];
 
 // The filter() method does not change the original array.
 
-let a2 =numbers.filter((we_can_write_anything ,index) => {
-    if(we_can_write_anything %10==0)
-    {
-       return we_can_write_anything;
-    }
+let a2 = numbers.filter((we_can_write_anything ,index) => {
+   if(we_can_write_anything %10==0)
+   {
+      return we_can_write_anything;
+   }
+  
    
-    
 } )
 console.log(a2);
 
