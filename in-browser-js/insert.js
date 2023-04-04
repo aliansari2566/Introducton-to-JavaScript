@@ -20,4 +20,5 @@ let a = document.getElementsByTagName('div')[1];
 
 
 // insertAdjacentHTML, insertAdjacentElement and insertAdjacentText
-first.insertAdjacentHTML('beforebegin','<span>Hi world! </span> ');
+first.insertAdjacentHTML('beforebegin','<span> Hi i\'m beforebegin </span> <br> ');
+first.insertAdjacentHTML('afterbegin','<span>Hi i\'m afterbegin </span> <br> ');
