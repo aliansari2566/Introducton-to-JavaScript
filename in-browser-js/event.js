@@ -15,5 +15,8 @@ let a = prompt("enter your fav number ");
 
 if(a=='2'){
 
-    btn.removeEventListener('click' , x)
+    btn.removeEventListener('click' ,(e)=>{
+
+        alert("hi from 1 ");
+    })
 }
