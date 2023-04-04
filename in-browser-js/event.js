@@ -9,3 +9,4 @@ let y = (e)=>{
 
 
 btn.addEventListener('click' , x);
+btn.addEventListener('click' , y);
