@@ -1,29 +1,41 @@
 
-setInterval(showTime, 1000);
-function showTime() {
-    let time = new Date();
-    let hour = time.getHours();
-    let min = time.getMinutes();
-    let sec = time.getSeconds();
-    am_pm = "AM";
+// setInterval(showTime, 1000);
+// function showTime() {
+//     let time = new Date();
+//     let hour = time.getHours();
+//     let min = time.getMinutes();
+//     let sec = time.getSeconds();
+//     am_pm = "AM";
   
-    if (hour > 12) {
-        hour -= 12;
-        am_pm = "PM";
-    }
-    if (hour == 0) {
-        hr = 12;
-        am_pm = "AM";
-    }
+//     if (hour > 12) {
+//         hour -= 12;
+//         am_pm = "PM";
+//     }
+//     if (hour == 0) {
+//         hr = 12;
+//         am_pm = "AM";
+//     }
   
-    hour = hour < 10 ? "0" + hour : hour;
-    min = min < 10 ? "0" + min : min;
-    sec = sec < 10 ? "0" + sec : sec;
+//     hour = hour < 10 ? "0" + hour : hour;
+//     min = min < 10 ? "0" + min : min;
+//     sec = sec < 10 ? "0" + sec : sec;
   
-    let currentTime = hour + ":" 
-            + min + ":" + sec + am_pm;
+//     let currentTime = hour + ":" 
+//             + min + ":" + sec + am_pm;
   
-    document.getElementById("clock")
-            .innerHTML = currentTime;
-}
-showTime();
+//     document.getElementById("clock")
+//             .innerHTML = currentTime;
+// }
+// showTime();
+
+let clock = () => {
+    let date = new Date();
+    let hrs = date.getHours();
+    let mins = date.getMinutes();
+    let secs = date.getSeconds();
+    let time = `${hrs}:${mins}:${secs}`
+    // log the time in console
+    console.log(time)
+  }
+  // call the clock function
+  clock();
