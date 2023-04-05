@@ -1,6 +1,6 @@
 
 setInterval(async function(){
 
-document.querySelector('#bulb').classList.toggle('bulb')
+document.querySelector('#bulb').classList.toggle('bulbon')
 
 }, 1000)
