@@ -1,3 +1,4 @@
+//using toggle with set interval to add or remove class
 
 setInterval(async function(){
 
