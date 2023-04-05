@@ -11,3 +11,13 @@ nav ul li {
     color: #000;
 }
 
+.bulboff{
+    background-image:url('pic_bulboff.gif');
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.bulbon{
+    background-image:url('pic_bulbon.gif');
+    height: 200px;
+    background-repeat: no-repeat;
+}
