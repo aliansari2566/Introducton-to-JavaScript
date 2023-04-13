@@ -8,3 +8,8 @@ function myDisplayer(some) {
   }
   
   myCalculator(5, 5, myDisplayer);
+
+
+
+
+
