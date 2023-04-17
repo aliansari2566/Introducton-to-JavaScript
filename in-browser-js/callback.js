@@ -10,6 +10,21 @@ function myDisplayer(some) {
   myCalculator(5, 5, myDisplayer);
 
 
+const loadScript = (src, Callback) => {
+  let script = document.createElement("script");
+  script.src=src;
+  script.onload = function (){
+    console.log("loaded script with src " + src);
+    Callback(null , src);
+  }
+
+  
+}
+
+
+
+
+  // callback hell & pyramid of doom ----------------------------
 
 
 
