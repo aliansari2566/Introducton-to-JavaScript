@@ -10,6 +10,7 @@ function myDisplayer(some) {
   myCalculator(5, 5, myDisplayer);
 
 
+  // ------------ load script with out callback  simple---------------
 
   const loadScript = (src ) => {
     let script = document.createElement("script");
@@ -21,6 +22,9 @@ function myDisplayer(some) {
 
   loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" )
 
+
+
+  // ------------ load script with out callback ---------------
 
 const loadScript = (src , callback) => {
   let script = document.createElement("script");
