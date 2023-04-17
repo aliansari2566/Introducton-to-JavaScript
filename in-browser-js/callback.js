@@ -23,7 +23,7 @@ const loadScript = (src, Callback) => {
 
 const hello = (error,src )=>{
 if(error){
-  
+  console.log("error");
 }
 
 
