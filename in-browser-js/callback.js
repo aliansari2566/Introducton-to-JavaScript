@@ -27,9 +27,9 @@ if(error){
   return
 }
 else{
-
+  alert("Hello world" + src)
 }
-alert("Hello world" + src)
+
 
 
 
