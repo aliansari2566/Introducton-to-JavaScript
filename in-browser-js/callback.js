@@ -60,7 +60,9 @@ else
 loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" ,hello)
 
 
-  // callback hell & pyramid of doom ----------------------------
+  // callback hell & pyramid of doom ---------------------------- 
+  //The phenomenon which happens when we nest multiple callbacks within a function is called a callback hell.
+  //The shape of the resulting code structure resembles a pyramid and hence callback hell is also called the “pyramid of the doom”
 
 
 
