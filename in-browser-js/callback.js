@@ -42,7 +42,7 @@ const loadScript = (src , callback) => {
     console.log("loaded script with src " + src);
     callback(null,src);// we have to pass src to our callback funtion other wise hello function will not alert any script
   }
-document.body.appendChild(script);
+   document.body.appendChild(script);
   
 }
 
@@ -64,3 +64,29 @@ loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstra
 
 
 
+  loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" , hello = (error,src ) => {
+    if(error){
+      console.log(error);
+      return
+    }
+      alert("Hello world" + src)
+    
+        loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" , hello = (error,src ) => {
+          if(error){
+            console.log(error);
+            return
+          }
+            alert("Hello world" + src)
+
+
+            loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" , hello = (error,src ) => {
+            if(error){
+              console.log(error);
+              return
+            }
+              alert("Hello world" + src)
+            
+            })
+      
+       })
+    })
