@@ -10,6 +10,18 @@ function myDisplayer(some) {
   myCalculator(5, 5, myDisplayer);
 
 
+
+  const loadScript = (src ) => {
+    let script = document.createElement("script");
+    script.src=src;
+   
+  document.body.appendChild(script);
+    
+  }
+
+  loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" )
+
+
 const loadScript = (src , callback) => {
   let script = document.createElement("script");
   script.src=src;
