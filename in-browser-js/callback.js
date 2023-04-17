@@ -12,19 +12,27 @@ function myDisplayer(some) {
 
   // ------------ load script with out callback  simple---------------
 
-  const loadScript = (src ) => {
+  const loadScript1 = (src ) => {
     let script = document.createElement("script");
+
     script.src=src;
+    script.onload = function (){
+      console.log("loaded script1 with src " + src);
+      
+    }
    
   document.body.appendChild(script);
     
   }
 
-  loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" )
+  loadScript1("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" )
 
 
 
   // ------------ load script with out callback ---------------
+
+
+    // ------------ load script with out callback  simple---------------
 
 const loadScript = (src , callback) => {
   let script = document.createElement("script");
