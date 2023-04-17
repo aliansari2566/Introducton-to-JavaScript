@@ -40,7 +40,7 @@ const loadScript = (src , callback) => {
   script.src=src;
   script.onload = function (){
     console.log("loaded script with src " + src);
-    callback();// we have to pass src to our callback funtion other wise hello function will not alert any script
+    callback(null,src);// we have to pass src to our callback funtion other wise hello function will not alert any script
   }
 document.body.appendChild(script);
   
