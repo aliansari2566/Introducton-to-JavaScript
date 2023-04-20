@@ -1,13 +1,20 @@
-let myPromise = new Promise((myResolve, myReject) =>{
+let myPromise = new Promise((Resolve, myReject) =>{
     setTimeout(function() { 
 
       console.log("resolved after 2 sec"); }, 2000);
 
-      myResolve();
+      Resolve(56);
   });
 
  myPromise.then((value) =>{
     console.log(value);
- }).catch(()=>{
-    console.log("an error occour");
+
+    let p2 = new Promise((Resolve, myReject) =>{
+       
+    
+          Resolve("p2");;
+    
+    
+      });
+      return p2;
  })
