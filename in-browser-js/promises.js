@@ -1,9 +1,11 @@
 let myPromise = new Promise((Resolve, myReject) =>{
     setTimeout(function() { 
 
-      console.log("resolved after 2 sec"); }, 2000);
-
+      console.log("resolved after 2 sec"); 
       Resolve(56);
+    }, 2000);
+
+    
   });
 
  myPromise.then((value) =>{
@@ -17,4 +19,7 @@ let myPromise = new Promise((Resolve, myReject) =>{
     
       });
       return p2;
+ }).then((value)=>{
+
+    console.log("we are done");
  })
