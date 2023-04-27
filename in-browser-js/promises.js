@@ -11,14 +11,14 @@ let myPromise = new Promise((Resolve, myReject) =>{
  myPromise.then((value) =>{
     console.log(value);
 
-    return  p2 = new Promise((Resolve, myReject) =>{
+    let p2 = new Promise((Resolve, myReject) =>{
        
     
           Resolve("p2");;
     
     
       });
-      // return p2;
+      return p2;
  }).then((value)=>{
 
     console.log("we are done");
