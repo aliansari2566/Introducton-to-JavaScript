@@ -90,7 +90,7 @@ let p5 = new Promise((Resolve, myReject) =>{
 
 
 
-Promise.allSettled([p3, p4, p5]).then((values) => {
+Promise.all([p3, p4, p5]).then((values) => {
   console.log(values); // [3, 1337, "foo"]
   let p6 = new Promise((Resolve, myReject) =>{  // ek new promise banya
        
