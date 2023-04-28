@@ -59,16 +59,38 @@ newPromise.then(()=>{
 
 // ------------  how to execute a promise after compeletion of all other promises together --------------
 
-let myPromise = new Promise((Resolve, myReject) =>{
+console.log(" execute a promise............. "+ '\n');
+
+let p3 = new Promise((Resolve, myReject) =>{
   setTimeout(function() { 
+    Resolve("p3");
+  }, 3000);
 
-    console.log("resolved after 2 sec"); 
-    Resolve(56);
-  }, 2000);
+});
+let p4 = new Promise((Resolve, myReject) =>{
+  setTimeout(function() { 
+    Resolve("p4");
+  }, 4000);
 
-  
+});
+let p5 = new Promise((Resolve, myReject) =>{
+  setTimeout(function() { 
+    Resolve("p5");
+  }, 5000);
+
 });
 
-Promise.all([p1, p2, p3]).then((values) => {
+Promise.all([p3, p4, p5]).then((values) => {
   console.log(values); // [3, 1337, "foo"]
+  let p6 = new Promise((Resolve, myReject) =>{
+       
+    
+    Resolve("p6");;
+
+
 });
+return p2;
+}).then((value)=>{
+
+  console.log("iam promise 6 executing affter all previous");
+})
