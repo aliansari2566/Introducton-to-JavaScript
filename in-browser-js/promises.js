@@ -53,3 +53,20 @@ newPromise.then(()=>{
 
   console.log("iam another handler and i can do any task"); 
 })
+
+// Multipule handlers in promise 
+ end
+
+let myPromise = new Promise((Resolve, myReject) =>{
+  setTimeout(function() { 
+
+    console.log("resolved after 2 sec"); 
+    Resolve(56);
+  }, 2000);
+
+  
+});
+
+Promise.all([p1, p2, p3]).then((values) => {
+  console.log(values); // [3, 1337, "foo"]
+});
