@@ -65,21 +65,21 @@ newPromise.then(()=>{
 console.log(" execute a promise............. "+ '\n');
 
 let p3 = new Promise((Resolve, myReject) =>{
-  setTimeout(function() { 
+
     Resolve("p3");
-  }, 3000);
+  
 
 });
 let p4 = new Promise((Resolve, myReject) =>{
-  setTimeout(function() { 
+  
     Resolve("p4");
-  }, 4000);
+  
 
 });
 let p5 = new Promise((Resolve, myReject) =>{
-  setTimeout(function() { 
+
     Resolve("p5");
-  }, 5000);
+ 
 
 });
 
@@ -97,7 +97,7 @@ Promise.all([p3, p4, p5]).then((values) => {
 
 
 });
-return p6;
+return p6; 
 }).then((value)=>{
 
   console.log("iam promise 6 executing affter all previous");
