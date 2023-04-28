@@ -90,7 +90,7 @@ all_promise.then((values) => {
 
 
 });
-return p2;
+return p6;
 }).then((value)=>{
 
   console.log("iam promise 6 executing affter all previous");
