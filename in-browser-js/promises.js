@@ -78,7 +78,7 @@ let p4 = new Promise((Resolve, myReject) =>{
 });
 let p5 = new Promise((Resolve, myReject) =>{
   
-  
+  Resolve("p5");
   // setTimeout(function() { 
   //   Resolve("p5");
   // }, 5000);
