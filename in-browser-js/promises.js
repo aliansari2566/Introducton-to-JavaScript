@@ -58,6 +58,9 @@ newPromise.then(()=>{
 
 
 // ------------  how to execute a promise after compeletion of all other promises together --------------
+// agr hum chahty hain k phly 3 promise jb chl jaye to uske bad hmra 4th promise ru
+
+
 
 console.log(" execute a promise............. "+ '\n');
 
