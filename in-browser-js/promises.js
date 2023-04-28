@@ -81,6 +81,9 @@ let p5 = new Promise((Resolve, myReject) =>{
 });
 
 // let all_promise = Promise.all([p3, p4, p5]);  
+// all_promise.then((values) =>
+
+
 
 Promise.all([p3, p4, p5]).then((values) => {
   console.log(values); // [3, 1337, "foo"]
