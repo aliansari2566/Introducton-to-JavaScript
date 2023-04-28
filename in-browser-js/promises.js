@@ -1,3 +1,5 @@
+// promise chain 
+
 let myPromise = new Promise((Resolve, myReject) =>{
     setTimeout(function() { 
 
@@ -23,3 +25,9 @@ let myPromise = new Promise((Resolve, myReject) =>{
 
     console.log("we are done");
  })
+
+ // promise chain  End
+
+
+ 
+//  Multipule handlers in promise 
