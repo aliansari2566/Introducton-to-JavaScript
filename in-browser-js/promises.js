@@ -57,6 +57,8 @@ newPromise.then(()=>{
 // Multipule handlers in promise end
 
 
+// ------------  how to execute a promise after compeletion of all other promises together --------------
+
 let myPromise = new Promise((Resolve, myReject) =>{
   setTimeout(function() { 
 
