@@ -54,8 +54,8 @@ newPromise.then(()=>{
   console.log("iam another handler and i can do any task"); 
 })
 
-// Multipule handlers in promise 
- end
+// Multipule handlers in promise end
+
 
 let myPromise = new Promise((Resolve, myReject) =>{
   setTimeout(function() { 
