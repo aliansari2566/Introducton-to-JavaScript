@@ -29,5 +29,27 @@ let myPromise = new Promise((Resolve, myReject) =>{
  // promise chain  End
 
 
- 
+
 //  Multipule handlers in promise 
+
+let newPromise = new Promise((Resolve, myReject) =>{
+  setTimeout(() =>{ 
+
+    console.log("resolved after 2 sec"); 
+    Resolve(56);
+  }, 2000);
+
+});
+newPromise.then(()=>{
+
+  console.log("iam first handler"); 
+})
+newPromise.then(()=>{
+
+  console.log("iam second handler"); 
+})
+
+newPromise.then(()=>{
+
+  console.log("iam another handler and i can do any task"); 
+})
