@@ -7,7 +7,7 @@ setTimeout(() => {
 try {
 console.log(Ali);    
 } catch (error) {
-    console.log("Error occur on try");
+    console.log("Error occur " + error);
 }
 setTimeout(() => {
     console.log("Fetching user details.......................................");
