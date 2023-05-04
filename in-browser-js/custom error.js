@@ -11,7 +11,7 @@ try {
 
 //custom errors 
 try {
-    throw new error("something went wrong")
+    throw new Error("something went wrong")
 } catch (error) {
     console.log(error.message);
     console.log(error.name);
