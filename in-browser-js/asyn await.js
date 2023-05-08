@@ -21,3 +21,44 @@ console.log(a);
 console.log(new Date().getMilliseconds);
 }
 main();
+
+
+let p1 = async()=>{
+    return new Promise((Resolve, myReject) =>{
+
+        setTimeout(() =>{ 
+          Resolve("p1");
+        }, 1000);
+        
+      
+      });
+}
+
+let p2 = async()=>{
+    return new Promise((Resolve, myReject) =>{
+
+        setTimeout(() =>{ 
+          Resolve("p2");
+        }, 2000);
+        
+      
+      });
+}
+let p3 = async()=>{
+    return new Promise((Resolve, myReject) =>{
+
+        setTimeout(() =>{ 
+          Resolve("p3");
+        }, 3000);
+        
+      
+      });
+}
+
+
+const run = async ()=>{
+ await p1()
+ await p2()
+ await p3()
+
+}
