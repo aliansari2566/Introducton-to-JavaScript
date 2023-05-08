@@ -31,16 +31,30 @@ console.log(value);
 // }
 // main();
 
+let P = () =>{
 
-let newPromise = new Promise((Resolve, myReject) =>{
+
+return newPromise = new Promise((Resolve, myReject) =>{
     setTimeout(() =>{ 
   
     myReject(new Error("this is not acceptable"))
-      Resolve(56);
-    }, 2000);
+     
+    }, 3000);
   
   });
-  newPromise.then(()=>{
+//   newPromise.then(()=>{
   
-    console.log("iam first handler"); 
-  })
+//     console.log("iam first handler"); 
+//   })
+
+}
+let aa = async()=>{
+    try {
+        let c = await P()
+        
+    } 
+    catch (error) {
+        
+    }
+
+}
