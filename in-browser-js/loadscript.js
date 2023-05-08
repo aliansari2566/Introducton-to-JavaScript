@@ -1,6 +1,6 @@
 const loadScript = async(src) => {
 
-    return Promise = new Promise((Resolve, myReject) =>{
+    return myPromise = new Promise((Resolve, myReject) =>{
     let script = document.createElement("script");
     script.src=src;
     script.onload =  () =>{
@@ -30,3 +30,17 @@ console.log(value);
 // console.log(new Date().getMilliseconds);
 // }
 // main();
+
+
+let newPromise = new Promise((Resolve, myReject) =>{
+    setTimeout(() =>{ 
+  
+    myReject(new Error("this is not acceptable"))
+      Resolve(56);
+    }, 2000);
+  
+  });
+  newPromise.then(()=>{
+  
+    console.log("iam first handler"); 
+  })
