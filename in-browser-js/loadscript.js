@@ -31,6 +31,9 @@ console.log(value);
 // }
 // main();
 
+
+
+// create a promise which rejects after 3 seconds use async/await to get its value use a try catch to handle error
 let P = () =>{
 
 
