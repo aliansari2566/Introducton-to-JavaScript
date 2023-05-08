@@ -51,10 +51,10 @@ return newPromise = new Promise((Resolve, myReject) =>{
 let aa = async()=>{
     try {
         let c = await P()
-        
+        console.log(c);
     } 
     catch (error) {
-        
+        console.log("this error has been handled ");
     }
 
 }
