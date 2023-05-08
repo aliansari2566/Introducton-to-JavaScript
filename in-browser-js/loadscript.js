@@ -19,6 +19,9 @@ a.then( (value)=>{
 console.log(value);
 })
 
+
+//Loading Script with  async await-----------------------------------
+
 // const main = async () =>{
 
 // console.log(new Date().getMilliseconds);
