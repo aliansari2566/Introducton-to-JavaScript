@@ -69,7 +69,7 @@ console.timeEnd("run") // it will take abouts 6 secs
 
 run();
 
-// now we will use promise.all to resovle all promises at once
+// now we will use promise.all to resovle all promises at  once
 const prun = async ()=>{
     console.time("run1");
  let a1 = p1() //here we don't n
