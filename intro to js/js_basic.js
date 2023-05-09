@@ -24,6 +24,16 @@ let z = 35;                      // declare and initialize variable z
 
 
 
+var x= 10;
+var x=11;
+const x=2;
+let t; // declare
+t=2;  //reassign 
+let r=10;// declare and initialize variable
+
+
+
+
 
 // Numbers:
 let length = 16;
