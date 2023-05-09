@@ -18,7 +18,9 @@ myPromise
 	})
 	.then((value) => {
 		console.log("we are done");
-	});
+	}).catch((err)=>{
+    console.log("error =  " + err);
+  })
 
 // promise chain  End
 
@@ -53,6 +55,7 @@ let p3 = new Promise((Resolve, myReject) => {
 });
 let p4 = new Promise((Resolve, myReject) => {
 	Resolve("p4");
+
 });
 let p5 = new Promise((Resolve, myReject) => {
 	Resolve("p5");
