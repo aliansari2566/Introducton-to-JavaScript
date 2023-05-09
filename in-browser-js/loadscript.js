@@ -20,12 +20,14 @@ console.log(value);
 })
 
 
-//Loading Script with  async await-----------------------------------
+// Loading Script with  async await-----------------------------------
 
 // const main = async () =>{
 
 // console.log(new Date().getMilliseconds);
+
 // let a = await loadScript("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" )
+
 // console.log(a);
 // console.log(new Date().getMilliseconds);
 // }
