@@ -34,13 +34,19 @@ function myDisplayer(some) {
 
 // one more example of callback -------------
 
-const gift =()=>{
-setTimeout(() => {  // pr ye jo anonymous function pass kia ha settime out mein ye 3000 second bad run hoga  ga or is se phly gitf() wala function run ho chuka hoga us
+const gift =(callback)=>{
+setTimeout(() => {  // pr ye jo anonymous function pass kia ha settime out mein ye 3000 second bad run hoga  ga or is se phly gitf() wala function run ho chuka hoga us mein koi value nahi hogi
   const get_gift="🎁";
 console.log("got the gift" + get_gift);
- return gift; bur this line will not return gift function ne 3000 seconds k bad gift ki value return krni hai abhi kch bhi nhi retunr kry ga apka gift ka function to foran execute hojye
+//  return gift; but this line will not return gift function ne 3000 seconds k bad gift ki value return krni hai abhi kch bhi nhi retunr kry ga apka gift ka function to foran execute hojye
+
+
+// we have to use a callback function  which will wait for the gift and when its return  ye hmy callback kr de ga 
+callback(get_gift); // ab ye gift k return hone ka wait kry ga 
+
 }, 3000);
 }
+
 
 
 
