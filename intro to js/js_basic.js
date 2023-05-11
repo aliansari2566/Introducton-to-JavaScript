@@ -26,7 +26,7 @@ let z = 35;                      // declare and initialize variable z
 
 var x= 10;
 var x=11;
-const x=2;
+// const x=2;
 let t; // declare
 t=2;  //reassign 
 let r=10;// declare and initialize variable
@@ -44,7 +44,7 @@ let color = "Yellow";
 let lastName = "Johnson";
 
 // Booleans
-let x = true;
+// let x = true;
 let y = false;
 
 // Object:
@@ -79,7 +79,12 @@ for (let j=1 ,i = 0; i < array.length; j++  )  {
  
 }
 
-let arr1=[2,4,6,8,9];
+for (let i in array ) {
+  console.log("index = " + i + " value = " + array [i]);
+
+}
+// let arr1=[2,4,6,8,9];
+
 // arr1[2].push(3);
 
-console.log(arr1);
+// console.log(arr1);
