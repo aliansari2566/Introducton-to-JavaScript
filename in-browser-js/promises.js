@@ -64,6 +64,7 @@ let p5 = new Promise((Resolve, myReject) => {
 	// }, 5000);
 });
 
+
 // let all_promise = Promise.all([p3, p4, p5]);
 // all_promise.then((values) =>
 
