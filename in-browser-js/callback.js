@@ -32,6 +32,30 @@ function myDisplayer(some) {
 
   // ------------ load script with out callback ---------------
 
+// one more example of callback -------------
+
+const gift =()=>{
+setTimeout(() => {
+  const get_gift="🎁";
+console.log("got the gift" + get_gift);
+
+}, 3000);
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+// one more example of callback -------------
+
+
 
 // ------------ load script with out callback  simple---------------
 
