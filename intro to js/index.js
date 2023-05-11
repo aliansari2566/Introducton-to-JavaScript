@@ -1,4 +1,4 @@
-//  const prompt = require("prompt-sync")();   // if you want to use prompt in vscode then you have to do this 
+ const prompt = require("prompt-sync")();   // if you want to use prompt in vscode then you have to do this 
 
 
 
