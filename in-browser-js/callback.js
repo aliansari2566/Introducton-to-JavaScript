@@ -10,6 +10,13 @@ function myDisplayer(some) {
   myCalculator(5, 5, myDisplayer);
 
 
+
+
+
+
+
+
+
   // ------------ load script with out callback  simple---------------
 
   const loadScript1 = (src ) => {
@@ -31,6 +38,14 @@ function myDisplayer(some) {
 
 
   // ------------ load script with out callback ---------------
+
+
+
+
+
+
+
+
 
 // one more example of callback -------------
 
@@ -57,6 +72,13 @@ getGift((gift)=>{
 
 
 // one more example of callback -------------
+
+
+
+
+
+
+
 
 
 
