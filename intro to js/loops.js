@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")();   // if you want to use prompt in vscod
 
 
 
-// const a= parseInt(prompt('Enter a positive integer: '));  // taking input from user and converting it into number
+ const a= parseInt(prompt('Enter a positive integer: '));  // taking input from user and converting it into number
 
 
 // Loops in JS
@@ -20,9 +20,9 @@ console.log(typeof str1);
 
 const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
-let text = "";
+let text = " ";
 for (let i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
+  text += cars[i] + '\n';
 }
 console.log(text, + ' ');
 
@@ -37,6 +37,7 @@ let marks = {
   sameer: 90,
   umair: 71 
 };
+
 
 
 console.log(Object.keys(marks));// this will print the values of object in an array like [ 'harry', 'Ali', 'sameer', 'umair' ]
@@ -77,77 +78,4 @@ for (const key in marks) {
 // forin loop 
 
 console.log('\n');
-
-
-// while loop
-let n = parseInt(prompt('Enter the value of n for while loop: ')); // in this way you are taking input and it will be converted and save in n
-console.log(typeof n);
-
-// let b = prompt("Enter the value of b") //first taking inputo from user 
-// b= Number.parseInt(b); // ther converting it to number because when you take input from promt by defualt it is a string you have to convert
-
-let counter = 0;
-while(counter < n){
-  console.log(counter);
-counter++;
-}
-
-
-// 
-do {
-  console.log(counter);
-counter++;
-}while(counter < n)
-
-
-
-
-let str = '';
-
-for (let i = 0; i < 9; i++) {
-  str = str + i;
-  console.log(str + ' ');
- 
-}
- let str2 = parseInt(str); // parseInt dose not convert the existing string to  number you have to store it into another variable to convert it.
-// console.log(parseInt(typeof str));
-console.log(str + ' ');
-console.log('this is the type of str2 ' + typeof str2 + str2 );
-
-Number(str);
-console.log( typeof  Number(str));
-
-
-//for each loops with array
-
-let random_arr=[2,3,4,7,8];
-
-// for each just use for iteration it does not return a new array as map() does
-random_arr.forEach(hello => {
-  console.log(hello*hello);
-});
-
-
-// for (let i = 0; i < random_arr.length; i++) {
-// console.log( random_arr[i] * random_arr[i]);
-  
-// }
-
-for (const key in random_arr) {
-  if (Object.hasOwnProperty.call(random_arr, key)) {
-console.log(random_arr[key]) ;
-    
-  }
-}
-
-for (let i of random_arr) {
-  console.log("marks of object " + i + " " + random_arr[i]);
-
-}
-
-for (let key in random_arr) {
-  console.log("marks of object " + key + " " + random_arr[key]);
-
-}
-
 
