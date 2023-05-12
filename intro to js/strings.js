@@ -37,7 +37,7 @@ let sen = "      th is is my javaScript practice session .  ";
 console.log(sen);
 
 //trim()
-console.log('trim()  remove white spaces: '+sen.trim()); // remove white spaces
+console.log('trim()  remove white spaces: '+ sen.trim()); // remove white spaces
 
 // toLocaleUpperCase(), toLowerCase()
 console.log('toLocaleUpperCase() this will convert string to upper case: '+name.toLocaleUpperCase() );//The toLocaleLowerCase() method converts a string to lowercase letters, using current locale.The locale is based on the language settings of the browser.
@@ -84,3 +84,78 @@ const word = 'fox';
 
 console.log(`The word "${word}" ${new_sentence.includes(word) ? 'is' : 'is not'} in the sentence`);
 // Expected output: "The word "fox" is in the sentence"
+
+
+
+
+
+
+// function maxCharacter(str){
+//     const charMap = {};
+//     let max = 0, maxChar = "";
+  
+//     for(let char of str){
+//       charMap[char] = charMap[char] + 1 || 1;
+//     }
+  
+//     for(let char in charMap){
+//       if(charMap[char] > max){
+//         max = charMap[char];
+//         maxChar = char;
+//       }
+//     }
+//     console.log(maxChar);
+// }
+
+
+
+// let max = maxCharacter(str1);
+// console.log(max);
+// const a = "fdsfjngjkdsfhhhhhhhhhhhfsdfsd";
+// const findMaximumRepeating = str => {
+//    let max = 0;
+//    for(let start = 0, end = 1; end < str.length; ){
+//       if(str[end] === str[start]){
+//          if(max < end - start + 1){
+//             max = end - start + 1;
+//          };
+//          end++;
+//       } else {
+//          start = end;
+//       };
+//    };
+//    return max;
+// };
+// console.log(findMaximumRepeating(a));
+
+// const maxChar = str => {
+//     const strObj = {}
+//     let maxCount = 0
+//     let maxChar = ""
+//     const searchText = ' ';
+//     for (let char of str) {
+//         if (str[char] !== searchText) {
+//             strObj[char] = strObj[char] + 1 || 1
+//         }
+    
+//     }
+//     for (let key in strObj) {
+//       if (strObj[key] > maxCount) {
+//         maxCount = strObj[key]
+//         maxChar = key
+//       }
+//     }
+//     return maxChar
+//   }
+//   console.log(maxChar(str1))
+
+//   let Str = "this sast  aa";
+
+//   for (let char of Str) {
+
+//     const searchText = ' ';
+//     if (Str[char] == searchText) {
+//     console.log("space found");
+//     }
+
+// }
