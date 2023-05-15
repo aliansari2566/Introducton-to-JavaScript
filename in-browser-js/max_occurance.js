@@ -1,10 +1,9 @@
 
-// let str = "this sa string programmers often like to avoid complex code";
 let str1 = "this is a string programmers often like to avoid comple";
 
 
 
-let str = "sample str ing ";
+
 
 
 
@@ -22,19 +21,41 @@ let str = "sample str ing ";
 
 // console.log("Max occurring character is: " + MaxOccurring_(str));
 
-
+let str = "saemeple strinng 123332 1324./;'";
 
 const MaxOccurring =(Str)=>{
 const map= new Map()
 str.split("").forEach(element => {
     map[element]=map[element]?map[element]+1:1;
-    console.log(element);
+    // console.log(element);
 });
 
+let char = str[0];
+let max =1;
+
+  for (let i in map) {
+    // console.log("map " + i + " " + map[i]);
+ 
+    if (i !== '' && map[i] > max) {
+    
+        max =map[i]
+        char =i;
+    }
+    // else if(map[i] > max){
+      
+    //     max =map[i]
+    //     char =i;
+    // }
+  
+  }
+
+// return char,max;
+console.log(" max occurring char = " + char + " occurance = "+ max);
 
 
 }
-MaxOccurring (str1)
+ MaxOccurring (str);
+// console.log(max_char);
 
 
 
