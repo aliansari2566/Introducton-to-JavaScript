@@ -21,10 +21,10 @@ let str1 = "this is a string programmers often like to avoid comple";
 
 // console.log("Max occurring character is: " + MaxOccurring_(str));
 
-let str = "saemeple strinng 123332 1324./;'";
+let str = "saemeple strinng 1233322 124./;'";
 
-const MaxOccurring =(Str)=>{
-const map= new Map()
+const MaxOccurring = (Str)=>{
+const map = new Map()
 str.split("").forEach(element => {
     map[element]=map[element]?map[element]+1:1;
     // console.log(element);
