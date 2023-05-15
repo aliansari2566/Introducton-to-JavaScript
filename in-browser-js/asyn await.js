@@ -56,13 +56,13 @@ let p3 = async()=>{
 }
 
 // this is fetching data one by one taking time it will take time
-const run = async ()=>{
-console.time("run");
+ const run = async ()=>{
+ console.time("run");
  let a1 = await p1() //fetch first 10 products from database 
  let a2 = await p2() //etch another 10 products from database 
  let a3 = await p3()
  console.log(a1,a2,a3);
-console.timeEnd("run") // it will take abouts 6 secs
+ console.timeEnd("run") // it will take abouts 6 secs
 
 
 }
