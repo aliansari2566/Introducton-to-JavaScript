@@ -6,6 +6,24 @@
 
 // post method and fetch api data post krne k liye
 
+let options ={
+  method: "POST",
+  headers:{
+    "content-type": "application/json"
+  },
+  // JSON.stringify() JS object ko string mein convert krta hai 
+  body: JSON.stringify({
+     title: 'foo',
+     body: 'bar',
+     userId: 101
+
+  })
+}
+
+//my custom options object
+fetch('https://jsonplaceholder.typicode.com/posts',options) 
+  .then((response) => response.json())
+  .then((json) => console.log(json));
 
 
 
@@ -36,7 +54,9 @@
       },
       // JSON.stringify() JS object ko string mein convert krta hai 
       // hum ye console object khud pass bhi kr skte hain 
-      body: JSON.stringify(mytodo)
+      body: JSON.stringify( mytodo
+       
+    )
     }
       let p = await fetch('https://jsonplaceholder.typicode.com/posts',options) 
       let response =p.json()
